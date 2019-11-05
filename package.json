@@ -1,0 +1,24 @@
+{
+  "name": "html-message",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.0.3",
+    "@angular/core": "^8.0.3"
+  },
+  "description": "Simple components for displaying html emails",
+  "author": "Wojciec Parys",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wojtek1150/html-message.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wojtek1150/html-message/issues"
+  },
+  "homepage": "https://github.com/wojtek1150/html-message",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "html",
+    "email"
+  ]
+}

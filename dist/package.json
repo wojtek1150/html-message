@@ -1,0 +1,37 @@
+{
+  "name": "html-message",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.0.3",
+    "@angular/core": "^8.0.3"
+  },
+  "description": "Simple components for displaying html emails",
+  "author": "Wojciec Parys",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:wojtek1150/html-message.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wojtek1150/html-message/issues"
+  },
+  "homepage": "https://github.com/wojtek1150/html-message",
+  "license": "MIT",
+  "keywords": [
+    "angular",
+    "html",
+    "email"
+  ],
+  "main": "bundles/html-message.umd.js",
+  "module": "fesm5/html-message.js",
+  "es2015": "fesm2015/html-message.js",
+  "esm5": "esm5/html-message.js",
+  "esm2015": "esm2015/html-message.js",
+  "fesm5": "fesm5/html-message.js",
+  "fesm2015": "fesm2015/html-message.js",
+  "typings": "html-message.d.ts",
+  "metadata": "html-message.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

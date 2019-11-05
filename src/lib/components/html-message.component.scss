@@ -1,0 +1,84 @@
+//vars
+$greyish: #e5e5e5;
+$blue: #2980b9;
+
+.message {
+  display: block;
+  line-height: 1.25;
+
+  .align-right {
+    text-align: right;
+  }
+
+  .align-center {
+    text-align: center;
+  }
+
+  ul, ol {
+    line-height: 1.4;
+    margin-block-end: 1em;
+    margin-block-start: 1em;
+    margin-inline-end: 0;
+    margin-inline-start: 0;
+    padding-inline-start: 40px;
+  }
+
+  a {
+    color: #285faf;
+    text-decoration: none;
+  }
+
+  p {
+    white-space: normal;
+  }
+
+  table {
+    margin-top: 15px;
+    width: 100%
+  }
+
+  th, tr, td, h2 {
+    padding: 12px 20px;
+  }
+
+  h2 {
+    color: lighten(black, 25%);
+    font-size: 20px;
+    font-weight: 500;
+    padding: 20px 20px 5px;
+  }
+
+  th {
+    color: lighten(black, 46%);
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  td {
+    border-collapse: collapse;
+    border-top: 1px solid darken($greyish, 5%);
+    color: lighten(black, 16%);
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  a {
+    color: $blue;
+    text-decoration: none;
+    transition: 100ms all ease-in-out;
+
+    &:hover {
+      color: lighten($blue, 15%)
+    }
+  }
+
+  tr:not(#header) {
+    transition: 200ms all ease-in-out;
+
+    &:hover {
+      background: #eeeeee
+    }
+  }
+
+}
